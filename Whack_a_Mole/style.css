@@ -1,0 +1,23 @@
+
+* { box-sizing : border-box;}
+
+.square {
+	width: 200px;
+	height: 200px; 
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+	height: 600px;
+}
+
+.mole {
+	background-image: url('mole.jpeg');
+	background-size: cover;
+
+}
